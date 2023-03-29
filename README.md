@@ -2,15 +2,14 @@
 
 This repository contains an example implementation of serverless data engineering using Rust programming language. The implementation showcases how to build an event-driven serverless pipeline using Rust and AWS services such as Lambda, S3, and DynamoDB.
 
-## Architecture
-![serverless pipeline](https://user-images.githubusercontent.com/70916756/228685561-091541f2-e74d-45fc-9e41-fbcc2f20c762.png)
-
 ## Overview
 
 The pipeline takes data in the form of JSON from an event source and processes it using a Rust Lambda function. The processed data is then stored in a DynamoDB table for later retrieval. The pipeline can be easily extended to include additional steps or to process data from different event sources.
 
 The implementation uses the AWS Serverless Application Model (SAM) to define the infrastructure for the pipeline. The SAM template defines the Lambda function, S3 bucket, and DynamoDB table used by the pipeline.
 
+## Architecture
+![serverless pipeline](https://user-images.githubusercontent.com/70916756/228685561-091541f2-e74d-45fc-9e41-fbcc2f20c762.png)
 ## Requirements
 
 To use this implementation, you need to have the following software and services:
