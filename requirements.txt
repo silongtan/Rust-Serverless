@@ -1,0 +1,4 @@
+pylint
+wikipedia
+boto3
+black
