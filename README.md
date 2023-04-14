@@ -39,6 +39,14 @@ Once the 2 steps above is completed, the lambda function can be triggered by upl
 
 ## Demo
 
+Uploading the file
+<img width="1123" alt="Screenshot 2023-04-13 at 22 26 19" src="https://user-images.githubusercontent.com/70916756/231926175-84c17a5e-9d71-49b2-8b24-f5a7402cba08.png">
+
+Trigger the lambda function
+<img width="1380" alt="Screenshot 2023-04-13 at 22 26 35" src="https://user-images.githubusercontent.com/70916756/231926220-6c3aa7ba-c012-464b-8339-0e7e0c97c0f3.png">
+
+Note that the invocation time is the same as the upload time of the 'tiger.jpg'
+
 ## License
 
 This implementation is released under the MIT license. See `LICENSE` for more information.
