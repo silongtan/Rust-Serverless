@@ -31,6 +31,9 @@ To deploy the pipeline, follow these steps:
 
 To test the pipeline, you can create an event in the S3 bucket defined in the SAM template. The Lambda function will be triggered automatically and will process the event data.
 
+To test/invoke the lambda function, you can upload a file to the AWS S3 bucket. Before triggering the function
+
+
 ## License
 
 This implementation is released under the MIT license. See `LICENSE` for more information.
