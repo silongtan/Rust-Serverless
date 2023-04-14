@@ -31,8 +31,13 @@ To deploy the pipeline, follow these steps:
 
 To test the pipeline, you can create an event in the S3 bucket defined in the SAM template. The Lambda function will be triggered automatically and will process the event data.
 
-To test/invoke the lambda function, you can upload a file to the AWS S3 bucket. Before triggering the function
+Before triggering the lambda function, you need to create a S3 bucket, this can be done in the AWS console. The name of the bucket will be used in the next step. 
 
+After the bucket is created, navigate to the lambda page and set up a trigger for the lambda function. The trigger should be set to S3 and the bucket name should be the name of the bucket you created in the previous step.
+
+Once the 2 steps above is completed, the lambda function can be triggered by uploading a file to the S3 bucket. The output or the invocation of the lambda function can be seen in the cloudwatch logs.
+
+## Demo
 
 ## License
 
